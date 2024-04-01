@@ -1,0 +1,16 @@
+#btn-gitlab {
+    background-color: #FF6D18;
+}
+
+#btn-linkedin {
+    background-color: #0076b7;
+}
+
+#btn-github {
+    background-color: #FFFFFF;
+    transition: all 1s;
+}
+
+#btn-github:hover {
+    background-color: #000000;
+}

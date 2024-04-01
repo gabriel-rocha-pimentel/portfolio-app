@@ -1,0 +1,20 @@
+:root {
+  --font-primary: 'Space Grotesk';
+  --font-second: 'Radley';
+
+  --color-primary: #000000;
+  --color-second: #3798DE;
+  --color-three: #D9EEFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-color: #D9EEFF;
+}
