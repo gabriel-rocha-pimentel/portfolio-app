@@ -1,0 +1,96 @@
+.container-about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+}
+
+.container-about em {
+    color: var(--color-second);
+    font-weight: bold;
+}
+
+.box-about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.image-profile {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+
+.about-content {
+    width: 50%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.content-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.tag-title {
+    font-family: var(--font-primary);
+    color: var(--color-second);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title {
+    font-family: var(--font-second);
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+.about-content-text {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.about {
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-family: 'Radley';
+    margin-bottom: 1rem;
+}
+
+.about a {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+.content-buttons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
